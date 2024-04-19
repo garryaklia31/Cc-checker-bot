@@ -15,7 +15,7 @@ async def claim(client: Client, m: Message):
     with Database() as db:
         if db.is_seller(user_id):
             return await m.reply(
-                "<b>Los sellers no pueden reclamar keys, contacta a @Sachioyt666 o @Fucker_504!</b>",
+                "<b>Los sellers no pueden reclamar keys, contacta a @punjab_buy</b>",
                 quote=True,
             )
         result = db.claim_key(key, user_id)
@@ -42,6 +42,6 @@ key -»  <code>{key}</code>
 expiration -» <code>{result}</code>
 canjed by -»  <a href='tg://user?id={m.from_user.id}'>{m.from_user.first_name}</a>""",
     )
-    link = await client.create_chat_invite_link(-1001960831832, member_limit=1)
-    await client.unban_chat_member(-1001960831832, user_id)
+    link = await client.create_chat_invite_link(-1001897182152, member_limit=1)
+    await client.unban_chat_member(-1001897182152, user_id)
     await client.send_message(user_id, f"<b>Grupo de usuarios: {link.invite_link}</b>")
