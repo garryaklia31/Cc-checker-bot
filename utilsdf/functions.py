@@ -23,7 +23,7 @@ Languages = {
 times = {}
 users_info = {}
 buy_button = InlineKeyboardMarkup(
-    [[InlineKeyboardButton("Buy Now", url="https://t.me/Was_B3")]]
+    [[InlineKeyboardButton("Buy Now", url="https://t.me/punjab_buy")]]
 )
 db_bins = sqlite3.connect("assets/bins.db")
 cursor_bins = db_bins.cursor()
@@ -238,7 +238,7 @@ def bot_on() -> None:
 
 
 def symbol(symbol: str) -> str:
-    href = f"<a href='https://t.me/bosascsdctcascsscsacacsvbotbot?start=start'>{symbol}</a>"
+    href = f"<a href='https://t.me/GarryPlays?start=start'>{symbol}</a>"
     return href
 
 
