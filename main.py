@@ -9,10 +9,10 @@ from utilsdf.functions import bot_on
 from utilsdf.db import Database
 from utilsdf.vars import PREFIXES
     
-API_ID = '29890751'
-API_HASH = '7fbdb8f35aea92c9726f3f2667fbd548'
+API_ID = '28386099'
+API_HASH = 'a0057fbf1ca49ce5e9d26fd4afd6e78b'
 BOT_TOKEN = '6619456557:AAEBZCvlXVv9m0qcoTtJ-Ev7Gs8K-_HnnRI'
-CHANNEL_LOGS = '-4047350871'
+CHANNEL_LOGS = '-1001897182152'
 
 app = Client(
     "bot",
@@ -74,7 +74,7 @@ async def user_ban(client: Client, m: Message):
         #         if not db.is_admin(m.from_user.id):
         #             return await m.reply(
         #                 """𝘽𝙤𝙩 𝙪𝙣𝙙𝙚𝙧 𝙈𝙖𝙣𝙩𝙚𝙣𝙞𝙚𝙣𝙘𝙚 ⚠️
-        # 𝙍𝙚𝙖𝙨𝙤𝙣 -» <code>Mantenimiento by @Fucker_504</code>
+        # 𝙍𝙚𝙖𝙨𝙤𝙣 -» <code>Mantenimiento by @punjab_buy</code>
         #        """
         #             )
         user_id = m.from_user.id
