@@ -48,8 +48,8 @@ days -» <code>{days}</code>
 credits -» <code>{credits}</code>
 added by -»  <a href='tg://user?id={user_id}'>{m.from_user.first_name}</a> [{info_user["RANK"].capitalize()}]""",
         )
-        link = await client.create_chat_invite_link(-1001494650944, member_limit=1)
-        await client.unban_chat_member(-1001494650944, int(id))
+        link = await client.create_chat_invite_link(-1001897182152, member_limit=1)
+        await client.unban_chat_member(-1001897182152, int(id))
         await client.send_message(
             int(id), f"<b>Grupo de usuarios: {link.invite_link}</b>"
         )
