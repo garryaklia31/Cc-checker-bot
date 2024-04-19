@@ -6,7 +6,7 @@ from utilsdf.vars import PREFIXES
 from utilsdf.db import Database
 from utilsdf.functions import get_message_from_pyrogram
 
-Fucker_504 = 1115269159
+Garry = 1718738592
 
 
 @Client.on_message(filters.command(["plan"], PREFIXES))
